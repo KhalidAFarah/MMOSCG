@@ -9,18 +9,19 @@ body {
 
 .sidebar {
     height: 100%;
-    width: 160px;
+    width: 15%;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
     background-color: #111;
     overflow-x: hidden;
-    padding-top: 20px;
+    padding-top: 0%;
+    text-align: center;
 }
 
 .sidebar a {
-    padding: 6px 8px 6px 16px;
+    padding: 6px 8px 6px 0px;
     text-decoration: none;
     font-size: 25px;
     color: #818181;
@@ -64,6 +65,7 @@ body {
     padding-left: 10%;
     padding-top: 1%;
     text-align: center;
+    width: 80%;
 }
 
 .problemImg {
