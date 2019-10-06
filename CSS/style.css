@@ -14,7 +14,7 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: #73DBFF;
     overflow-x: hidden;
     padding-top: 0%;
     text-align: center;
@@ -24,7 +24,8 @@ body {
     padding: 6px 8px 6px 0px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: black;
+    font-weight: bold;
     display: block;
 }
 
@@ -35,7 +36,7 @@ body {
 .logo {
     width: 100%;
     height: auto;
-    padding-bottom: 20%;
+    border-bottom: 5px solid black;
 }
 
 .main {
