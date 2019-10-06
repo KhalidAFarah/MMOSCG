@@ -80,6 +80,39 @@ body {
     text-align: center;
 }
 
+.header-download {
+    padding-left: 10%;
+    padding-top: 3%;
+    text-align: center;
+}
+
+.phone {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.phoneApp {
+    width: 30%;
+    height: auto;
+    padding-left: 45%;
+    padding-top: 5%;
+}
+
+.sideText {
+    width: 50%;
+    height: auto;
+    float: right;
+    padding-top: 5%;
+}
+
+.playStore,
+.appStore {
+    width: 50%;
+    height: auto;
+    padding: 5%;
+}
+
 @media screen and (max-height: 450px) {
     .sidebar (padding-top: 15px; ) .sidebar a (font-size: 18px; )
 }
