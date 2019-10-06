@@ -21,7 +21,7 @@ body {
 }
 
 .sidebar a {
-    padding: 6px 8px 6px 0px;
+    padding: 6px 0px 6px 0px;
     text-decoration: none;
     font-size: 25px;
     color: black;
@@ -30,7 +30,38 @@ body {
 }
 
 .sidebar a:hover {
-    color: #f1f1f1;
+    color: white;
+}
+
+.sidebar .arabicMenu, .sidebar .Menu  {
+    color: #DB4E40;
+}
+
+.sidebar .active {
+    text-decoration: underline;
+    color: darkred;
+}
+
+.sidebar .active2 {
+    text-decoration: underline;
+    color: yellow;
+}
+
+.sidebar .active3 {
+    text-decoration: underline;
+    color: darkred;
+}
+
+.sidebar .active3:hover, .sidebar .notActive:hover {
+    color: navy;
+}
+
+.langButton {
+    width: 50%;
+    height: auto;
+    background-color: white;
+    border: 5px solid black;
+    text-align: center;
 }
 
 .logo {
@@ -42,12 +73,14 @@ body {
 .main {
     margin-left: 160px;
     margin-top: -60px;
-    font-size: 20px;
     padding: 0px 10px;
     text-align: center;
 }
-.home-artikkel{
-    font-size: 25px;
+
+.home-article {
+    padding-left: 7%;
+    padding-top: 3%;
+    padding-bottom: 5%;
 }
 
 .frontImg {
@@ -55,7 +88,6 @@ body {
     height: auto;
     padding-top: 8%;
     margin-left: 80px;
-    
 }
 
 .HomeTitle {
@@ -65,18 +97,19 @@ body {
     color: white;
     width: 1000px;
     margin-top: -150px;
-    margin-left: 150px;
+    margin-left: 250px;
     padding-bottom: 50px;
+    text-align: center;
 }
 
 .header-problem {
-    padding-left: 10%;
+    padding-left: 15%;
     padding-top: 3%;
     text-align: center;
 }
 
 .problem-article {
-    padding-left: 10%;
+    padding-left: 15%;
     padding-top: 1%;
     text-align: center;
     width: 80%;
@@ -92,22 +125,24 @@ body {
     padding-left: 10%;
     padding-top: 3%;
     text-align: center;
+    font-size: 28px;
 }
 
 .header-download {
     padding-left: 10%;
     padding-top: 3%;
     text-align: center;
+    font-size: 28px;
 }
 
 .phone {
-    width: 50%;
+    width: 45%;
     height: auto;
     float: left;
 }
 
 .phoneApp {
-    width: 30%;
+    width: 40%;
     height: auto;
     padding-left: 45%;
     padding-top: 5%;
@@ -116,13 +151,22 @@ body {
 .sideText {
     width: 50%;
     height: auto;
-    float: right;
+    float: left;
     padding-top: 5%;
+    font-size: 24px;
+}
+
+.sideImg {
+    width: 30%;
+    height: auto;
+    float: left;
+    padding-top: 10%;
+    padding-left: 10%;
 }
 
 .playStore,
 .appStore {
-    width: 50%;
+    width: 100%;
     height: auto;
     padding: 5%;
     cursor: pointer;
