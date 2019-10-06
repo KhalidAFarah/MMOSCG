@@ -111,6 +111,7 @@ body {
     width: 50%;
     height: auto;
     padding: 5%;
+    cursor: pointer;
 }
 
 @media screen and (max-height: 450px) {
