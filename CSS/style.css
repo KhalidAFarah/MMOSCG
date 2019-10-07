@@ -63,7 +63,13 @@ body {
     border: 5px solid black;
     text-align: center;
 }
-
+.språk a{
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 60%;
+}
+språk{    
+}
 .logo {
     width: 100%;
     height: auto;
@@ -71,23 +77,32 @@ body {
 }
 
 .main {
-    margin-left: 160px;
+    margin-left: 14%;
+    width: 76%;
     margin-top: -60px;
     padding: 0px 10px;
     text-align: center;
+}
+.bok{
+    margin-left: 10%;
+    width: 25%;
+}
+.bok img{
+    width: 100%;
 }
 
 .home-article {
     padding-left: 7%;
     padding-top: 3%;
     padding-bottom: 5%;
+    font-size: 20px;
 }
 
 .frontImg {
-    width: 90%;
+    width: 100%;
     height: auto;
-    padding-top: 8%;
-    margin-left: 80px;
+    padding-top: 10%;
+    margin-left: 7%;
 }
 
 .HomeTitle {
@@ -95,10 +110,10 @@ body {
     padding: absolute;
     margin-top: -50px;
     color: white;
-    width: 1000px;
+    width: 90%;
     margin-top: -150px;
-    margin-left: 250px;
-    padding-bottom: 50px;
+    margin-left: 13%;
+    padding-bottom: 5%;
     text-align: center;
 }
 
@@ -172,6 +187,24 @@ body {
     cursor: pointer;
 }
 
-@media screen and (max-height: 450px) {
+@media only screen and (max-height: 600px) {
     .sidebar (padding-top: 15px; ) .sidebar a (font-size: 18px; )
+}
+@media(max-width: 800px) {
+    .main .HomeTitle .endre{
+        font-size: 25px;
+        margin-top: 8%;
+    }
+    #end{
+        font-size: 18px;
+    }
+}
+@media(max-width: 620px) {
+    .main .HomeTitle .endre{
+        font-size: 20px;
+        margin-top: 13%;
+    }
+    #end{
+        font-size: 14px;
+    }
 }
