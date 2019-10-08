@@ -32,6 +32,9 @@ body {
 .sidebar a:hover {
     color: white;
 }
+.menu2{
+    display: none;
+}
 
 .sidebar .arabicMenu, .sidebar .Menu  {
     color: #DB4E40;
@@ -220,4 +223,56 @@ språk{
     .sideText{
         font-size: 16px;
     }
+}
+
+@media(max-width: 500px) { /*ny layout for mobil telefoner*/
+    .sidebar {
+        height: 15%;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #73DBFF;
+        overflow-y: hidden;
+        padding-top: 0%;
+        text-align: center;
+    }
+    .menu1{
+        display: none;  
+    }
+    .menu2{
+        float: left;
+        display: block;
+        margin-left: 70%;
+        margin-top: -30%
+        
+    }
+    .menubilde{
+        width: 40%;
+        
+    }
+    .logo{
+        width: 50%;
+        float: left;
+        margin-top: -13.5%
+    }
+    .main{
+        margin-top: 21%;
+        margin-left: -2%;
+        width: 94%;
+    }
+    .backgroundImage{
+        width: 93%;
+    }
+    
+
+    /*.sidebar a {
+        padding: 6px 0px 6px 0px;
+        text-decoration: none;
+        font-size: 25px;
+        color: black;
+        font-weight: bold;
+        display: block;
+    }*/
 }
