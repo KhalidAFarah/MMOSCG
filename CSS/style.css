@@ -32,10 +32,13 @@ body {
 .sidebar a:hover {
     color: white;
 }
-.menu2{
+
+.menu2 {
     display: none;
 }
-.sidebar .arabicMenu, .sidebar .Menu  {
+
+.sidebar .arabicMenu,
+.sidebar .Menu {
     color: #DB4E40;
 }
 
@@ -54,8 +57,9 @@ body {
     color: darkred;
 }
 
-.sidebar .active3:hover, .sidebar .notActive:hover {
-    color: navy;
+.sidebar .active3:hover,
+.sidebar .notActive:hover {
+    color: green;
 }
 
 .langButton {
@@ -65,13 +69,15 @@ body {
     border: 5px solid black;
     text-align: center;
 }
-.språk a{
+
+.lang a {
     padding-left: 10%;
     padding-right: 10%;
     width: 60%;
 }
-språk{    
-}
+
+lang {}
+
 .logo {
     width: 100%;
     height: auto;
@@ -85,11 +91,13 @@ språk{
     padding: 0px 10px;
     text-align: center;
 }
-.bok{
+
+.bok {
     margin-left: 10%;
     width: 25%;
 }
-.menu2-con{
+
+.menu2-con {
     display: none;
     height: 25%;
     width: 100%;
@@ -101,13 +109,18 @@ språk{
     overflow: hidden;
     padding-top: 0%;
     text-align: center;
-    
 }
-.menu2-con li{
+
+.menu2-con li {
     padding-bottom: 2%;
 }
 
-.bok img{
+mark { 
+  background-color: #1D1B1C;
+  color: white;
+}
+
+.bok img {
     width: 100%;
 }
 
@@ -211,38 +224,45 @@ språk{
 @media only screen and (max-height: 600px) {
     .sidebar (padding-top: 15px; ) .sidebar a (font-size: 18px; )
 }
+
 @media(max-width: 800px) {
-    .main .HomeTitle .endre{
+    .main .HomeTitle .endre {
         font-size: 25px;
         margin-top: 8%;
     }
-    #end, header.header-download{
+
+    #end,
+    header.header-download {
         font-size: 18px;
     }
+
     .sideText {
         font-size: 18px;
     }
+
     .sideImg {
         padding-left: 8%;
     }
-    
-    
-    
 }
+
 @media(max-width: 620px) {
-    .main .HomeTitle .endre{
+    .main .HomeTitle .endre {
         font-size: 20px;
         margin-top: 13%;
     }
-    #end{
+
+    #end {
         font-size: 14px;
     }
-    .sideText{
+
+    .sideText {
         font-size: 16px;
     }
 }
 
-@media(max-width: 500px) { /*ny layout for mobil telefoner*/
+@media(max-width: 500px) {
+
+    /*ny layout for mobil telefoner*/
     .sidebar {
         height: 15%;
         width: 100%;
@@ -255,49 +275,54 @@ språk{
         padding-top: 0%;
         text-align: center;
     }
-    .menu1{
-        display: none;  
+
+    .menu1 {
+        display: none;
     }
-    .menu2{
+
+    .menu2 {
         position: absolute;
         display: block;
         margin-left: 70%;
         margin-top: -2%;
         height: 75%;
     }
-    
-    .menu2 li{
+
+    .menu2 li {
         text-decoration: none;
         list-style-type: none;
     }
-    .menubilde{
-        width: 40%; 
+
+    .menubilde {
+        width: 40%;
     }
-    
-    .menu2:hover .menu2-con{
-        transition: 10s; 
+
+    .menu2:hover .menu2-con {
+        transition: 10s;
         overflow: visible;
         display: block;
         z-index: 1;
         height: 45%;
-        
     }
-    .LogoImg{
+
+    .LogoImg {
         width: 50%;
         height: 40%;
         float: left;
         margin-top: -13%;
-        
     }
-    .main{
+
+    .main {
         margin-top: 21%;
         margin-left: -2%;
         width: 94%;
     }
-    .backgroundImage{
+
+    .backgroundImage {
         width: 93%;
     }
-     #end{
+
+    #end {
         font-size: 20px;
     }
 }
