@@ -275,10 +275,11 @@ språk{
     }
     
     .menu2:hover .menu2-con{
+        transition: 10s; 
         overflow: visible;
         display: block;
         z-index: 1;
-        height: 40%;
+        height: 45%;
         
     }
     .LogoImg{
@@ -296,14 +297,7 @@ språk{
     .backgroundImage{
         width: 93%;
     }
-    
-
-    /*.sidebar a {
-        padding: 6px 0px 6px 0px;
-        text-decoration: none;
-        font-size: 25px;
-        color: black;
-        font-weight: bold;
-        display: block;
-    }*/
+     #end{
+        font-size: 20px;
+    }
 }
