@@ -35,10 +35,6 @@ body {
 .menu2{
     display: none;
 }
-.menu2-con{
-    display: none;
-}
-
 .sidebar .arabicMenu, .sidebar .Menu  {
     color: #DB4E40;
 }
@@ -93,6 +89,24 @@ språk{
     margin-left: 10%;
     width: 25%;
 }
+.menu2-con{
+    display: none;
+    height: 25%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 15%;
+    left: 0;
+    background-color: #73DBFF;
+    overflow: hidden;
+    padding-top: 0%;
+    text-align: center;
+    
+}
+.menu2-con li{
+    padding-bottom: 2%;
+}
+
 .bok img{
     width: 100%;
 }
@@ -245,30 +259,34 @@ språk{
         display: none;  
     }
     .menu2{
-        position: fixed;
+        position: absolute;
         display: block;
         margin-left: 70%;
         margin-top: -2%;
+        height: 75%;
+    }
+    
+    .menu2 li{
+        text-decoration: none;
+        list-style-type: none;
     }
     .menubilde{
         width: 40%; 
     }
-    .menu2-con{
-        position: absolute;
-        background-color: #73DBFF;
-        width: 160px;
-        box-shadow:  0px 8px 16px 0px rgba(0,0,0,0,2);
-        z-index: 1;
-    }
+    
     .menu2:hover .menu2-con{
+        overflow: visible;
         display: block;
         z-index: 1;
+        height: 40%;
         
     }
     .LogoImg{
         width: 50%;
+        height: 40%;
         float: left;
-        margin-top: -13.5%
+        margin-top: -13%;
+        
     }
     .main{
         margin-top: 21%;
