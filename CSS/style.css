@@ -87,7 +87,7 @@ lang {}
 .main {
     margin-left: 14%;
     width: 76%;
-    margin-top: -60px;
+    margin-top: -3%;
     padding: 0px 10px;
     text-align: center;
 }
@@ -153,7 +153,7 @@ mark {
 .header-problem {
     padding-left: 15%;
     padding-top: 3%;
-    margin-top: 13%;
+    margin-top: 3%;
     text-align: center;
 }
 
@@ -245,6 +245,14 @@ mark {
     .sideImg {
         padding-left: 8%;
     }
+    
+    .phoneApp{
+        width: 60%;
+        margin-left: -20%;
+    }
+    .sideImg{
+        width: 40%;
+    }
 }
 
 @media(max-width: 620px) {
@@ -330,6 +338,16 @@ mark {
 
     #end {
         font-size: 20px;
+    }
+    
+    
+     .phoneApp{
+        width: 80%;
+        margin-left: -60%;
+    }
+    .sideImg{
+        width: 50%;
+        margin-left: -10%;
     }
 }
 @media(max-width: 450px) {
