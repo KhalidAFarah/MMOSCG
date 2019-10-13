@@ -153,6 +153,7 @@ mark {
 .header-problem {
     padding-left: 15%;
     padding-top: 3%;
+    margin-top: 13%;
     text-align: center;
 }
 
@@ -226,6 +227,7 @@ mark {
 }
 
 @media(max-width: 800px) {
+    
     .main .HomeTitle .endre {
         font-size: 25px;
         margin-top: 8%;
@@ -296,9 +298,13 @@ mark {
     .menubilde {
         width: 40%;
     }
+    .menubilde2 {
+        width: 80%;
+        margin-top: -11%;
+    }
+    
 
     .menu2:hover .menu2-con {
-        transition: 10s;
         overflow: visible;
         display: block;
         z-index: 1;
@@ -313,7 +319,7 @@ mark {
     }
 
     .main {
-        margin-top: 21%;
+        margin-top: 25%;
         margin-left: -2%;
         width: 94%;
     }
@@ -325,4 +331,33 @@ mark {
     #end {
         font-size: 20px;
     }
+}
+@media(max-width: 450px) {
+    .main {
+        margin-top: 35%;
+    }
+    .menubilde2{
+        margin-top: -18% 
+    }
+     .menu2:hover .menu2-con {
+        overflow: visible;
+        display: block;
+        z-index: 1;
+        height: 50%;
+    }
+}
+@media(max-width: 400px) {
+    .main {
+        margin-top: 30%;
+    }
+     .menu2:hover .menu2-con {
+        overflow: visible;
+        display: block;
+        z-index: 1;
+        height: 60%;
+    }
+    .header-download h1{
+        font-size: 30px;
+    }
+    
 }
