@@ -91,6 +91,7 @@ lang {}
     padding: 0px 10px;
     text-align: center;
 }
+
 .mainprob {
     margin-left: 10%;
     width: 90%;
@@ -122,9 +123,9 @@ lang {}
     padding-bottom: 2%;
 }
 
-mark { 
-  background-color: #1D1B1C;
-  color: white;
+mark {
+    background-color: #1D1B1C;
+    color: white;
 }
 
 .bok img {
@@ -158,15 +159,16 @@ mark {
 }
 
 .header-problem {
-    padding-left: 15%;
+    padding-left: 3%;
     padding-top: 3%;
     margin-top: 3%;
     text-align: center;
 }
 
 .problem-article {
-    padding-left: 1%;
+    padding-left: 12%;
     padding-top: 1%;
+    padding-bottom: 5%;
     text-align: center;
     width: 80%;
     font-size: 20px;
@@ -180,20 +182,20 @@ mark {
 
 .header-solution {
     padding-left: 10%;
-    padding-top: 3%;
+    padding-top: 10%;
     text-align: center;
     font-size: 28px;
 }
 
 .header-download {
     padding-left: 10%;
-    padding-top: 3%;
+    padding-top: 10%;
     text-align: center;
     font-size: 28px;
 }
 
 .phone {
-    width: 45%;
+    width: 40%;
     height: auto;
     float: left;
 }
@@ -201,15 +203,15 @@ mark {
 .phoneApp {
     width: 40%;
     height: auto;
-    padding-left: 45%;
-    padding-top: 5%;
+    padding-left: 20%;
+    padding-top: 7%;
 }
 
 .sideText {
     width: 50%;
     height: auto;
     float: left;
-    padding-top: 5%;
+    padding-top: 7%;
     font-size: 24px;
 }
 
@@ -229,13 +231,39 @@ mark {
     cursor: pointer;
 }
 
-@media only screen and (max-height: 600px) {
-    .sidebar (padding-top: 15px; ) .sidebar a (font-size: 18px; )
+@-ms-viewport {
+    width: device-width;
 }
 
-@media(max-width: 800px) {
+@media only screen and (max-width: 1000px) {
+    .phoneApp {
+        padding-top: 20%;
+    }
     
-    .main .HomeTitle .endre .mainprob {
+    .sidebar a {
+        font-size: 18px;
+    }
+    
+    .endre {
+        padding-top: 5%;
+    }
+}
+
+@media only screen and (max-width: 910px) {
+    .endre {
+        padding-top: 10%;
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .sidebar a {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .main .HomeTitle .end .mainprob {
         font-size: 25px;
         margin-top: 8%;
     }
@@ -252,18 +280,19 @@ mark {
     .sideImg {
         padding-left: 8%;
     }
-    
-    .phoneApp{
+
+    .phoneApp {
         width: 60%;
         margin-left: -20%;
     }
-    .sideImg{
+
+    .sideImg {
         width: 40%;
     }
 }
 
-@media(max-width: 620px) {
-    .main .HomeTitle .endre .mainprob{
+@media only screen and (max-width: 620px) {
+    .main .HomeTitle .endre .mainprob {
         font-size: 20px;
         margin-top: 13%;
     }
@@ -277,9 +306,12 @@ mark {
     }
 }
 
-@media(max-width: 500px) {
+@media only screen and (max-height: 600px) {
+    .sidebar (padding-top: 15px; ) .sidebar a (font-size: 18px; )
+}
 
-    /*ny layout for mobil telefoner*/
+@media (max-width: 500px) {
+    /*ny layout for mobiltelefoner*/
     .sidebar {
         height: 15%;
         width: 100%;
@@ -313,11 +345,11 @@ mark {
     .menubilde {
         width: 40%;
     }
+
     .menubilde2 {
         width: 80%;
         margin-top: -11%;
     }
-    
 
     .menu2:hover .menu2-con {
         overflow: visible;
@@ -333,7 +365,7 @@ mark {
         margin-top: -13%;
     }
 
-    .main .mainprob{
+    .main .mainprob {
         margin-top: 25%;
         margin-left: -2%;
         width: 94%;
@@ -346,43 +378,48 @@ mark {
     #end {
         font-size: 20px;
     }
-    
-    
-     .phoneApp{
+
+    .phoneApp {
         width: 80%;
         margin-left: -60%;
     }
-    .sideImg{
+
+    .sideImg {
         width: 50%;
         margin-left: -10%;
     }
 }
-@media(max-width: 450px) {
+
+@media (max-width: 450px) {
     .main {
         margin-top: 35%;
     }
-    .menubilde2{
-        margin-top: -18% 
+
+    .menubilde2 {
+        margin-top: -18%
     }
-     .menu2:hover .menu2-con {
+
+    .menu2:hover .menu2-con {
         overflow: visible;
         display: block;
         z-index: 1;
         height: 50%;
     }
 }
-@media(max-width: 400px) {
+
+@media (max-width: 400px) {
     .main {
         margin-top: 30%;
     }
-     .menu2:hover .menu2-con {
+
+    .menu2:hover .menu2-con {
         overflow: visible;
         display: block;
         z-index: 1;
         height: 60%;
     }
-    .header-download h1{
+
+    .header-download h1 {
         font-size: 30px;
     }
-    
 }
