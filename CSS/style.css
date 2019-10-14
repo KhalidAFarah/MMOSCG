@@ -489,3 +489,19 @@ mark {
         font-size: 20px;
     }
 }
+@media (max-height: 825px) {
+    .logo{
+        width: 115%;
+    }
+    .menu2{
+        margin-top: 0%;
+    }
+}
+@media (max-height: 800px) {
+    .logo{
+        width: 105%;
+    }
+    .menu2{
+        margin-top: -2%;
+    }
+}
