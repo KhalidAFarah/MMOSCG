@@ -206,6 +206,12 @@ mark {
     padding-left: 20%;
     padding-top: 7%;
 }
+.phoneApp2 {
+    width: 40%;
+    height: auto;
+    padding-left: 20%;
+    padding-top: 7%;
+}
 
 .sideText {
     width: 50%;
@@ -234,6 +240,26 @@ mark {
 @-ms-viewport {
     width: device-width;
 }
+@media only screen and (max-width: 1050px) {
+    .phoneApp {
+        padding-top: 20%;
+        width: 80%;
+        padding-left: 5%;
+    }
+    .phoneApp2{
+        width: 80%;
+        margin-left: -20%;
+    }
+    
+    .sidebar a {
+        font-size: 18px;
+    }
+    
+    .endre {
+        padding-top: 5%;
+    }
+}
+
 
 @media only screen and (max-width: 1000px) {
     .phoneApp {
@@ -274,15 +300,16 @@ mark {
     }
 
     .sideText {
-        font-size: 18px;
+        font-size: 30px;
+        width: 60%;
     }
 
     .sideImg {
         padding-left: 8%;
     }
 
-    .phoneApp {
-        width: 60%;
+    .phoneApp, .phoneApp2 {
+        width: 80%;
         margin-left: -20%;
     }
 
@@ -355,7 +382,7 @@ mark {
         overflow: visible;
         display: block;
         z-index: 1;
-        height: 45%;
+        height: 47%;
     }
 
     .LogoImg {
@@ -365,7 +392,7 @@ mark {
         margin-top: -13%;
     }
 
-    .main .mainprob {
+    .main {
         margin-top: 25%;
         margin-left: -2%;
         width: 94%;
@@ -379,7 +406,7 @@ mark {
         font-size: 20px;
     }
 
-    .phoneApp {
+    .phoneApp, .phoneApp2 {
         width: 80%;
         margin-left: -60%;
     }
@@ -405,6 +432,20 @@ mark {
         z-index: 1;
         height: 50%;
     }
+    .phoneApp, .sideText{
+        margin-left: -15%;
+        position: absolute;
+        float: none;
+        width: 50%;
+        margin-top: -10%;
+    }
+    .sideText{
+        margin-top: 120%;
+        margin-left: 4%;
+        font-size: 25px;
+        width: 90%;
+        
+    }
 }
 
 @media (max-width: 400px) {
@@ -421,5 +462,30 @@ mark {
 
     .header-download h1 {
         font-size: 30px;
+    }
+    
+}
+@media (max-width: 380px) {
+   
+
+    .menu2:hover .menu2-con {
+        overflow: visible;
+        display: block;
+        z-index: 1;
+        height: 50%;
+    }
+    .header-solution{
+        font-size: 20px;
+    }
+}
+@media (max-width: 350px) {
+    .menu2:hover .menu2-con {
+        overflow: visible;
+        display: block;
+        z-index: 1;
+        height: 60%;
+    }
+    .header-solution{
+        font-size: 20px;
     }
 }
